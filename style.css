@@ -1,0 +1,84 @@
+body {background-image: url(images/papegoja.png ); }
+body.image-none { background-image: none; }
+h1 {
+  color: #ff00aa;
+  font-size: 43px;
+}
+
+.flexbox-title {
+   display: flex;
+   align-items: center;
+   background-color: grey;
+   margin: 50px;
+   padding: 30px;
+
+}
+.flexbox-title p { font-size: 20px;}
+
+.flexbox-title img {
+  height: 200px;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-child {
+  border:4px solid black;
+  margin:4px;
+  padding: 30px;
+}
+
+.flex-child h2 {
+  font-size: 30px;
+}
+
+.aqua-box {
+  background-color: aqua;
+  padding: 30px;
+  width: 25%;
+}
+.aqua-box h2 {
+  color: #6e06afcf;
+}
+.aqua-box img {
+  width: 25%;
+
+}
+
+.pink-box {
+  background-color: pink;
+  padding: 30px;
+  width: 25%;
+}
+.pink-box h2 {
+  color: #0a94cbde;
+}
+
+.yellow-box {
+  background-color: yellow;
+  padding: 30px;
+  width: 25%;
+}           
+.yellow-box h4 {
+  color: #d62893de;
+}
+.image-holder {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.button {
+  display: block;
+  text-align: center;
+  background-color: hotpink;
+  padding: 8px;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+}
